@@ -1,0 +1,21 @@
+
+
+
+# Maven build output
+target/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Private keys
+*.pem
+*.key
+
+# Local Vagrant state
+.vagrant/
+
+# OS files
+.DS_Store
+Thumbs.db
